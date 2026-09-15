@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ahmad's developer portfolio focused on backend engineering, data systems, and applied machine learning projects."
+    />
+    <title>Ahmad — Backend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <header class="top-nav" id="top">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span>
+        Ahmad
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">
+        Menu
+      </button>
+      <nav id="menu" class="menu" aria-label="Primary">
+        <a href="#narrative">Story</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#timeline">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Software Engineering Student • Bogor, Indonesia</p>
+        <h1 id="hero-title">I build backend systems that turn complex domain logic into practical tools.</h1>
+        <p class="hero-summary">
+          I'm Ahmad, an early-career developer at IPB University. I focus on Laravel APIs, data-driven system design,
+          and building software that helps teams make better decisions.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">Explore Projects</a>
+          <a class="btn btn-secondary" href="#contact">Let's Connect</a>
+        </div>
+      </section>
+
+      <section class="narrative" id="narrative" aria-labelledby="narrative-title">
+        <div>
+          <p class="eyebrow">How I Work</p>
+          <h2 id="narrative-title">From system questions to reliable implementation.</h2>
+        </div>
+        <div class="narrative-grid">
+          <article>
+            <h3>Understand the domain first</h3>
+            <p>
+              I enjoy translating real-world processes into structured entities, rules, and data flows before writing
+              business logic.
+            </p>
+          </article>
+          <article>
+            <h3>Design stable foundations</h3>
+            <p>
+              Most of my energy goes into API consistency, schema clarity, and maintainable backend architecture so
+              future features stay manageable.
+            </p>
+          </article>
+          <article>
+            <h3>Build with measurable purpose</h3>
+            <p>
+              I choose projects where software supports decisions—from ecosystem valuation systems to machine learning
+              experiments for environmental utility.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects" id="projects" aria-labelledby="projects-title">
+        <div class="projects-head">
+          <p class="eyebrow">Featured Work</p>
+          <h2 id="projects-title">Projects are the center of my portfolio.</h2>
+          <p>
+            These projects show how I handle domain modeling, data management, and implementation detail as an
+            early-career engineer.
+          </p>
+        </div>
+
+        <article class="project project-primary">
+          <div class="project-meta">
+            <p class="project-label">Main Project • PKSPL IPB • 2026</p>
+            <h3>VALEK — Valuasi Ekonomi Ekosistem Laut</h3>
+            <p>
+              A web application for calculating and managing Total Economic Value (TEV) of marine and coastal
+              ecosystems.
+            </p>
+            <ul class="tags">
+              <li>Laravel</li>
+              <li>PHP</li>
+              <li>REST API</li>
+              <li>MySQL</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+          <div class="project-detail">
+            <div>
+              <h4>Context & Problem</h4>
+              <p>
+                Valuation workflows involve many connected entities and methods. The challenge was managing these
+                relationships clearly so analysis stays consistent across projects.
+              </p>
+            </div>
+            <div>
+              <h4>What the System Does</h4>
+              <p>
+                Organizes projects, impacted areas, indexes, land cover, ecosystem services, valuation modules, and
+                valuation results into one integrated workflow.
+              </p>
+            </div>
+            <div>
+              <h4>My Role</h4>
+              <p>
+                Backend Developer: API development, schema and database design, business logic implementation, and data
+                management for valuation processes.
+              </p>
+            </div>
+            <div>
+              <h4>Technical Highlights</h4>
+              <ul>
+                <li>Domain-driven table relationships for complex valuation entities</li>
+                <li>REST endpoints mapped to project valuation workflow stages</li>
+                <li>Business-rule handling for modular valuation methods</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="project project-secondary">
+          <div class="project-meta">
+            <p class="project-label">Computer Vision Project</p>
+            <h3>Smart Trash Bin — YOLOv8n</h3>
+            <p>
+              A machine learning experiment for waste detection using YOLOv8n to support smarter classification
+              workflows.
+            </p>
+            <ul class="tags">
+              <li>Python</li>
+              <li>YOLOv8</li>
+              <li>Machine Learning</li>
+              <li>Computer Vision</li>
+            </ul>
+          </div>
+          <div class="project-detail compact">
+            <div>
+              <h4>What I Focused On</h4>
+              <p>
+                Experimenting with object detection pipelines and model integration for practical environmental use
+                cases.
+              </p>
+            </div>
+            <div>
+              <h4>Technical Aspects</h4>
+              <ul>
+                <li>Dataset-to-inference workflow for waste object detection</li>
+                <li>Model experimentation using lightweight YOLOv8n architecture</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="stack" id="stack" aria-labelledby="stack-title">
+        <div>
+          <p class="eyebrow">Technology Focus</p>
+          <h2 id="stack-title">Current engineering toolkit</h2>
+        </div>
+        <div class="stack-groups">
+          <article>
+            <h3>Backend & Data</h3>
+            <p>PHP, Laravel, REST API, MySQL, SQL, Database Design, Data Analysis</p>
+          </article>
+          <article>
+            <h3>Programming</h3>
+            <p>PHP, Python, JavaScript</p>
+          </article>
+          <article>
+            <h3>ML & CV</h3>
+            <p>Machine Learning, YOLOv8, Computer Vision</p>
+          </article>
+          <article>
+            <h3>Workflow & Product</h3>
+            <p>Git, GitHub, Figma, UI/UX</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="timeline" id="timeline" aria-labelledby="timeline-title">
+        <div>
+          <p class="eyebrow">Journey</p>
+          <h2 id="timeline-title">Education, experience, and direction</h2>
+        </div>
+        <div class="timeline-items">
+          <article>
+            <p class="time">2026</p>
+            <h3>Backend Developer — PKSPL IPB</h3>
+            <p>Contributed to VALEK through API development, data architecture, and valuation-focused business logic.</p>
+          </article>
+          <article>
+            <p class="time">2023 – Present</p>
+            <h3>IPB University</h3>
+            <p>D4 Teknologi Rekayasa Perangkat Lunak (Software Engineering Technology).</p>
+          </article>
+          <article>
+            <p class="time">Graduated 2023</p>
+            <h3>MAN Insan Cendekia Padang Pariaman</h3>
+            <p>Previous formal education before entering applied software engineering studies.</p>
+          </article>
+          <article>
+            <p class="time">12 Feb 2025</p>
+            <h3>Figma Certification — Udemy</h3>
+            <p>Complete Figma Course: Web & Mobile Projects from Scratch (9.5 hours).</p>
+          </article>
+        </div>
+
+        <div class="interests">
+          <h3>Career Interests</h3>
+          <p>Backend Development • System Analysis • Data Analysis • Database Analysis</p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let's build something meaningful.</h2>
+          <p>
+            I'm open to opportunities, collaborations, and conversations around backend systems, data-driven products,
+            and practical technology projects.
+          </p>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:ahmad793ahm@gmail.com">ahmad793ahm@gmail.com</a>
+          <a href="tel:+6281312341325">081312341325</a>
+          <a href="https://github.com/ip1mad" target="_blank" rel="noreferrer">github.com/ip1mad</a>
+          <p>Bogor, Indonesia</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Designed and built by Ahmad.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
